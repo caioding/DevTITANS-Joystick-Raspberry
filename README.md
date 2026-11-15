@@ -16,6 +16,21 @@ feita em 15/11/2026, para o projeto não se perder se o original for apagado.
 
 Os links nas issues e na wiki continuam apontando para o repositório original. O conteúdo está todo aqui.
 
+## Board e issues recriados no GitHub (15/11/2026)
+
+- **Board:** [github.com/users/caioding/projects/4](https://github.com/users/caioding/projects/4). Feito com
+  "Make a copy" do board original (campos, 5 visões, automações) e com as 18 issues adicionadas por
+  "Add item from repository". Os status batem item por item com o `Backlog.tsv` original (7 Todo, 4 In progress,
+  7 Done). O board está ligado ao repositório.
+- **Issues:** criadas pelo formulário do GitHub, com título e texto originais e uma linha "Copiada da issue nº N do
+  repositório original". As 7 concluídas foram fechadas como *completed*. Os responsáveis originais (Thiago,
+  Raphael) não são colaboradores aqui, então ficaram registrados no texto, escritos sem @ para não notificar ninguém.
+- **Números:** o #1 já era um pull request e a "Entrega" foi criada antes da hora, então ficou assim:
+
+| Original | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Aqui | 2 | 4 | 5 | 6 | 3 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+
 ## Comandos usados
 
 ```bash
