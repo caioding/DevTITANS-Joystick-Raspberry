@@ -1,3 +1,9 @@
 # Scripts de shell sempre com LF: no Windows (core.autocrlf=true) o checkout com CRLF quebra o sh/Git Bash.
 *.sh text eol=lf
 gradlew text eol=lf
+
+# Arquivos binários: nunca converter finais de linha
+*.pdf binary
+*.mp4 binary
+*.png binary
+*.jpg binary
