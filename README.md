@@ -20,7 +20,7 @@ robótico**, que move os 4 servos.
 ## Como funciona
 
 ```mermaid
-flowchart LR
+flowchart TD
     J["Joystick<br/>ESP32 + botões + analógico + acelerômetro<br/>(SNES_BT_Controller/)"]
     subgraph RPI["Raspberry Pi 4 · Android 14 (GloDroid)"]
         A["App com.snesbt.receiver<br/>(app/)"]
