@@ -148,7 +148,16 @@ joystick desconectado e `Permission denied`.
 | Protocolo do joystick (quadro BLE) e IPC app ↔ daemon | [`docs/protocol_spec.md`](docs/protocol_spec.md), [`docs/ipc_spec.md`](docs/ipc_spec.md) |
 | Operação e diagnóstico do lado do joystick | [`docs/OPERACAO.md`](docs/OPERACAO.md) |
 | Relatórios semanais, compilação do AOSP e comandos | [Wiki](../../wiki) |
-| Board do projeto (18 atividades) e issues | Branch [`backup-github`](../../tree/backup-github): `board/BOARD.md` e `issues/ISSUES.md` |
+| Board do projeto (18 atividades) | [Projects → Equipe 3: Hands On Final](https://github.com/users/caioding/projects/4) (cópia do board original) e, em arquivo, a branch [`backup-github`](../../tree/backup-github) (`board/`) |
+| Issues | [Issues](../../issues), recriadas a partir do original, e `issues/ISSUES.md` na branch `backup-github` |
+
+**Números das issues:** no repositório original elas vão de #1 a #18. Aqui ficaram com outros números, porque
+o #1 já estava ocupado por um pull request e a "Entrega do Planejamento Parcial" foi criada antes da hora.
+Cada issue diz no fim qual era o número original.
+
+| Original | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Aqui | 2 | 4 | 5 | 6 | 3 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
 
 O `README_TESTE_END_TO_END.md` é o pacote de teste original do joystick. Alguns caminhos dele (`ble/`,
 `receiver/`) são de antes da organização atual das pastas.
