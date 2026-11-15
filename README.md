@@ -5,9 +5,22 @@ Nintendo) conversa por **Bluetooth** com uma **Raspberry Pi 4 rodando Android (A
 dois drivers transformam o controle num gamepad do Android e repassam os botões por **USB** ao **ESP32 do braço
 robótico**, que move os 4 servos.
 
-**Estado:** a cadeia completa foi apresentada funcionando em 11/11/2026: joystick → Raspberry → ESP32 do braço
-→ servos.
+**Estado: projeto concluído.** A cadeia completa (joystick → Raspberry → ESP32 do braço → servos) foi
+apresentada funcionando em 11/11/2026. Todas as atividades do [board](https://github.com/users/caioding/projects/4)
+estão em *Done*.
 
+## Apresentação e vídeos
+
+| | |
+|---|---|
+| 📄 **Apresentação final** (17 slides, PDF) | [`apresentacao/Apresentacao-Equipe03.pdf`](apresentacao/Apresentacao-Equipe03.pdf) |
+| 🎬 **Vídeo 1** (28 s) | [`apresentacao/videos/video-1.mp4`](apresentacao/videos/video-1.mp4) |
+| 🎬 **Vídeo 2** (19 s) | [`apresentacao/videos/video-2.mp4`](apresentacao/videos/video-2.mp4) |
+
+Clique no arquivo para abrir no próprio GitHub. Os vídeos também podem ser baixados pelo botão de download da
+página do arquivo.
+
+- [Apresentação e vídeos](#apresentação-e-vídeos)
 - [Como funciona](#como-funciona)
 - [O que está neste repositório](#o-que-está-neste-repositório)
 - [Hardware](#hardware)
@@ -131,13 +144,16 @@ joystick desconectado e `Permission denied`.
 
 ## Testes
 
-| Teste | Comando | Resultado registrado |
+| Teste | Comando | Resultado |
 |---|---|---|
-| Driver do Raphael (host) | `daemon/test.sh` | 56 verificações ✅ |
-| App (JVM) | `./gradlew :app:testDebugUnitTest` | não rodado na integração do braço |
-| Driver do braço (unitários, rodando na Raspberry) | ver `braco/daemon/tests/` | 61/61 ✅ |
-| Integração dos dois drivers na Raspberry (protocolos frame e william) | `python braco/scripts/device_test.py` | 19/19 ✅ |
-| Joystick real → Raspberry → ESP32 do braço real | logcat acima | ✅ 11/11 |
+| Testes automáticos do driver do Raphael | `daemon/test.sh` | ✅ 56 verificações |
+| Testes automáticos do driver do braço (rodando na Raspberry) | ver `braco/daemon/tests/` | ✅ 61 verificações |
+| Os dois drivers juntos na Raspberry (protocolos frame e william) | `python braco/scripts/device_test.py` | ✅ 19 verificações |
+| **Teste real:** joystick → Raspberry → ESP32 do braço → servos | logcat acima | ✅ apresentado em 11/11/2026 |
+
+O app Android também tem testes automáticos próprios (`./gradlew :app:testDebugUnitTest`), mas eles não foram
+executados durante a integração do braço. O app em si foi validado no teste real, onde recebeu o joystick e
+repassou cada botão.
 
 ## Documentação
 
