@@ -128,6 +128,37 @@ adb shell sh /data/local/tmp/rasp_start.sh
 Ele sobe o driver do Raphael (se ainda não estiver rodando), o serviço do app e o driver do braço como root,
 e mostra o começo do log. Depois, ligue o joystick: o app conecta sozinho.
 
+**Ou, passo a passo, à mão** (a mesma coisa que o script faz). Entre no shell da Raspberry:
+
+```bash
+adb shell
+```
+
+Já dentro do `adb shell`, rode:
+
+```sh
+# 1. uid do app (o driver do Raphael só aceita conexões dele)
+UID_APP=$(pm list packages -U com.snesbt.receiver | sed 's/.*uid://')
+
+# 2. driver do Raphael (snes_input_daemon): cria o gamepad SNES-BT-Controller
+nohup /data/local/tmp/snes_input_daemon --allow-uid $UID_APP > /data/local/tmp/snes_input_daemon.log 2>&1 &
+
+# 3. serviço do app (opcional: ele já sobe sozinho no boot; se já estiver rodando, avisa e não muda nada)
+am start-foreground-service -n com.snesbt.receiver/.service.ControllerService
+
+# 4. driver do braço (snes_arm_daemon), como root: a porta USB do ESP32 só abre como root
+su 0 sh -c 'nohup /data/local/tmp/snes_arm_daemon --device auto --verbose --echo > /data/local/tmp/snes_arm_daemon.log 2>&1 &'
+
+# 5. ver a cadeia toda: app, Bluetooth, conexão app ↔ driver, driver do Raphael e driver do braço
+logcat -s SnesBtReceiver SnesBle SnesDaemonClient SnesDaemon SnesArmDaemon
+```
+
+- **Ordem:** o driver do Raphael (passo 2) precisa estar de pé antes do driver do braço (passo 4).
+- **`Address already in use` no passo 2:** o driver do Raphael já estava rodando. Pode seguir.
+- **Não use `adb root`:** ele reinicia o adb e derruba o driver do Raphael. O `su 0` do passo 4 dá root só ao
+  driver do braço.
+- **Para sair do `logcat`:** `Ctrl+C`. Os drivers continuam rodando.
+
 ### Ver funcionando
 
 ```bash
