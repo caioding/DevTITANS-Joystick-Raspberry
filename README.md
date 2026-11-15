@@ -11,14 +11,15 @@ estão em *Done*.
 
 ## Apresentação e vídeos
 
-| | |
-|---|---|
-| 📄 **Apresentação final** (17 slides, PDF) | [`apresentacao/Apresentacao-Equipe03.pdf`](apresentacao/Apresentacao-Equipe03.pdf) |
-| 🎬 **Vídeo 1** (28 s) | [`apresentacao/videos/video-1.mp4`](apresentacao/videos/video-1.mp4) |
-| 🎬 **Vídeo 2** (19 s) | [`apresentacao/videos/video-2.mp4`](apresentacao/videos/video-2.mp4) |
+| | Abrir | Arquivo no repositório |
+|---|---|---|
+| 📄 **Apresentação final** (17 slides) | [ver o PDF](apresentacao/Apresentacao-Equipe03.pdf) | [`apresentacao/Apresentacao-Equipe03.pdf`](apresentacao/Apresentacao-Equipe03.pdf) |
+| 🎬 **Vídeo 1**: demonstração (28 s, 1080p) | [▶ assistir no navegador](https://cdn.jsdelivr.net/gh/caioding/DevTITANS-Joystick-Raspberry@main/apresentacao/videos/video-1.mp4) | [`apresentacao/videos/video-1.mp4`](apresentacao/videos/video-1.mp4) |
+| 🎬 **Vídeo 2**: demonstração (19 s) | [▶ assistir no navegador](https://cdn.jsdelivr.net/gh/caioding/DevTITANS-Joystick-Raspberry@main/apresentacao/videos/video-2.mp4) | [`apresentacao/videos/video-2.mp4`](apresentacao/videos/video-2.mp4) |
 
-Clique no arquivo para abrir no próprio GitHub. Os vídeos também podem ser baixados pelo botão de download da
-página do arquivo.
+O GitHub abre o PDF na própria página, mas não toca vídeos guardados no repositório: na página do arquivo, só
+aparece "View raw", que baixa o vídeo. O link "assistir" toca o mesmo arquivo direto no navegador, servido pelo
+jsDelivr (um CDN público para repositórios do GitHub).
 
 - [Apresentação e vídeos](#apresentação-e-vídeos)
 - [Como funciona](#como-funciona)
