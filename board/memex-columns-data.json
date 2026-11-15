@@ -1,0 +1,358 @@
+[
+  {
+    "dataType": "title",
+    "id": "Title",
+    "databaseId": 409044158,
+    "name": "Title",
+    "nameSlug": "title",
+    "position": 1,
+    "userDefined": false,
+    "visible": true,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "assignees",
+    "id": "Assignees",
+    "databaseId": 409044159,
+    "name": "Assignees",
+    "nameSlug": "assignees",
+    "position": 2,
+    "userDefined": false,
+    "visible": true,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "singleSelect",
+    "id": "Status",
+    "databaseId": 409044160,
+    "name": "Status",
+    "nameSlug": "status",
+    "position": 3,
+    "userDefined": false,
+    "visible": true,
+    "settings": {
+      "options": [
+        {
+          "id": "f75ad846",
+          "name": "Todo",
+          "nameHtml": "Todo",
+          "color": "GREEN",
+          "description": "This item hasn't been started",
+          "descriptionHtml": "This item hasn't been started"
+        },
+        {
+          "id": "47fc9ee4",
+          "name": "In progress",
+          "nameHtml": "In progress",
+          "color": "YELLOW",
+          "description": "This is actively being worked on",
+          "descriptionHtml": "This is actively being worked on"
+        },
+        {
+          "id": "98236657",
+          "name": "Done",
+          "nameHtml": "Done",
+          "color": "PURPLE",
+          "description": "This has been completed",
+          "descriptionHtml": "This has been completed"
+        }
+      ]
+    },
+    "issueFieldId": null
+  },
+  {
+    "dataType": "labels",
+    "id": "Labels",
+    "databaseId": 409044161,
+    "name": "Labels",
+    "nameSlug": "labels",
+    "position": 4,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "linkedPullRequests",
+    "id": "Linked pull requests",
+    "databaseId": 409044162,
+    "name": "Linked pull requests",
+    "nameSlug": "linked-pull-requests",
+    "position": 5,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "milestone",
+    "id": "Milestone",
+    "databaseId": 409044163,
+    "name": "Milestone",
+    "nameSlug": "milestone",
+    "position": 6,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "repository",
+    "id": "Repository",
+    "databaseId": 409044164,
+    "name": "Repository",
+    "nameSlug": "repository",
+    "position": 7,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "reviewers",
+    "id": "Reviewers",
+    "databaseId": 409044166,
+    "name": "Reviewers",
+    "nameSlug": "reviewers",
+    "position": 9,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "parentIssue",
+    "id": "Parent issue",
+    "databaseId": 409044167,
+    "name": "Parent issue",
+    "nameSlug": "parent-issue",
+    "position": 10,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "subIssuesProgress",
+    "id": "Sub-issues progress",
+    "databaseId": 409044168,
+    "name": "Sub-issues progress",
+    "nameSlug": "sub-issues-progress",
+    "position": 11,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "created",
+    "id": "Created",
+    "databaseId": 409044169,
+    "name": "Created",
+    "nameSlug": "created",
+    "position": 12,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "updated",
+    "id": "Updated",
+    "databaseId": 409044170,
+    "name": "Updated",
+    "nameSlug": "updated",
+    "position": 13,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "closed",
+    "id": "Closed",
+    "databaseId": 409044171,
+    "name": "Closed",
+    "nameSlug": "closed",
+    "position": 14,
+    "userDefined": false,
+    "visible": false,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "singleSelect",
+    "id": 409044214,
+    "databaseId": 409044214,
+    "name": "Priority",
+    "nameSlug": "priority",
+    "position": 15,
+    "userDefined": true,
+    "visible": true,
+    "settings": {
+      "width": 200,
+      "options": [
+        {
+          "id": "d283feb2",
+          "name": "P0",
+          "nameHtml": "P0",
+          "color": "RED",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "e867d47b",
+          "name": "P1",
+          "nameHtml": "P1",
+          "color": "ORANGE",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "9c9219e6",
+          "name": "P2",
+          "nameHtml": "P2",
+          "color": "YELLOW",
+          "description": "",
+          "descriptionHtml": ""
+        }
+      ]
+    },
+    "issueFieldId": null
+  },
+  {
+    "dataType": "singleSelect",
+    "id": 409044215,
+    "databaseId": 409044215,
+    "name": "Size",
+    "nameSlug": "size",
+    "position": 16,
+    "userDefined": true,
+    "visible": true,
+    "settings": {
+      "width": 200,
+      "options": [
+        {
+          "id": "a84bbb5e",
+          "name": "XS",
+          "nameHtml": "XS",
+          "color": "GREEN",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "e0868a94",
+          "name": "S",
+          "nameHtml": "S",
+          "color": "RED",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "685f0bd2",
+          "name": "M",
+          "nameHtml": "M",
+          "color": "BLUE",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "a81d898a",
+          "name": "L",
+          "nameHtml": "L",
+          "color": "PURPLE",
+          "description": "",
+          "descriptionHtml": ""
+        },
+        {
+          "id": "76dca381",
+          "name": "XL",
+          "nameHtml": "XL",
+          "color": "YELLOW",
+          "description": "",
+          "descriptionHtml": ""
+        }
+      ]
+    },
+    "issueFieldId": null
+  },
+  {
+    "dataType": "number",
+    "id": 409044216,
+    "databaseId": 409044216,
+    "name": "Estimate",
+    "nameSlug": "estimate",
+    "position": 17,
+    "userDefined": true,
+    "visible": true,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "iteration",
+    "id": 409044217,
+    "databaseId": 409044217,
+    "name": "Iteration",
+    "nameSlug": "iteration",
+    "position": 18,
+    "userDefined": true,
+    "visible": true,
+    "settings": {
+      "configuration": {
+        "duration": 14,
+        "startDay": 1,
+        "iterations": [],
+        "completedIterations": [
+          {
+            "id": "5ec64e8e",
+            "title": "Iteration 3",
+            "titleHtml": "Iteration 3",
+            "startDate": "2026-10-04",
+            "duration": 14
+          },
+          {
+            "id": "37db757c",
+            "title": "Iteration 2",
+            "titleHtml": "Iteration 2",
+            "startDate": "2026-09-20",
+            "duration": 14
+          },
+          {
+            "id": "6c039dda",
+            "title": "Iteration",
+            "titleHtml": "Iteration",
+            "startDate": "2026-09-06",
+            "duration": 14
+          }
+        ]
+      }
+    },
+    "issueFieldId": null
+  },
+  {
+    "dataType": "date",
+    "id": 409044218,
+    "databaseId": 409044218,
+    "name": "Start date",
+    "nameSlug": "start-date",
+    "position": 19,
+    "userDefined": true,
+    "visible": true,
+    "settings": null,
+    "issueFieldId": null
+  },
+  {
+    "dataType": "date",
+    "id": 409044219,
+    "databaseId": 409044219,
+    "name": "Target date",
+    "nameSlug": "target-date",
+    "position": 20,
+    "userDefined": true,
+    "visible": true,
+    "settings": null,
+    "issueFieldId": null
+  }
+]

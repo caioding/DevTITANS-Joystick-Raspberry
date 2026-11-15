@@ -12,7 +12,7 @@ feita em 15/11/2026, para o projeto não se perder se o original for apagado.
 | Wiki: 13 páginas, 49 commits | a Wiki deste repositório | `git clone --mirror` da `.wiki.git` + `git push --mirror` |
 | Issues: 18, com labels e responsáveis (não ficam no git) | esta branch, pasta `issues/`: `ISSUES.md` (legível) e os `.json` (dados completos da API) | `exportar_issues.py` (API REST pública do GitHub) |
 | Imagem anexada à wiki (hospedada pelo GitHub, fora do git) | esta branch, `anexos/598c6eae-37a2-409a-8827-f4bcb5dd5d07` (PNG) | `curl` do endereço `github.com/user-attachments/assets/...` |
-| Board (GitHub Projects) | não incluído: a API do Projects exige login | exportar pelo site: no board, menu da visualização → **Export view data** (CSV) e salvar aqui em `board/` |
+| Board "Equipe 3: Hands On Final" (GitHub Projects, 18 itens, 5 visões) | esta branch, pasta `board/`: `BOARD.md` (legível), `board.csv` (abre no Excel) e os `memex-*.json` (dados completos: campos, opções, iterações, visões) | `exportar_board.py`: lê os dados que a página pública do board embute, sem login |
 
 Os links nas issues e na wiki continuam apontando para o repositório original. O conteúdo está todo aqui.
 
@@ -26,6 +26,7 @@ git clone --mirror https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joysti
 git --git-dir=wiki.git push --mirror https://github.com/caioding/DevTITANS-Joystick-Raspberry.wiki.git
 
 python exportar_issues.py ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry issues
+python exportar_board.py https://github.com/users/ThiagoChaves517/projects/13 board
 curl -L -o anexos/598c6eae-37a2-409a-8827-f4bcb5dd5d07 https://github.com/user-attachments/assets/598c6eae-37a2-409a-8827-f4bcb5dd5d07
 ```
 

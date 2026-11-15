@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Status chart",
+    "number": 1,
+    "configuration": {
+      "type": "column",
+      "xAxis": {
+        "dataSource": {
+          "column": 409044160
+        }
+      },
+      "yAxis": {
+        "aggregate": {
+          "operation": "count"
+        }
+      },
+      "filter": ""
+    }
+  }
+]

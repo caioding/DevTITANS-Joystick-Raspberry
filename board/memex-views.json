@@ -1,0 +1,224 @@
+[
+  {
+    "id": 48505909,
+    "number": 1,
+    "name": "Backlog",
+    "groupBy": [
+      409044160
+    ],
+    "sortBy": [],
+    "visibleFields": [
+      409044158,
+      409044159,
+      409044160,
+      409044162,
+      409044168,
+      409044217,
+      409044216,
+      409044218,
+      409044219
+    ],
+    "filter": null,
+    "layout": "table_layout",
+    "priority": 9223372036854775907,
+    "createdAt": "2026-09-07T00:34:38Z",
+    "updatedAt": "2026-09-07T00:35:01Z",
+    "verticalGroupBy": [],
+    "aggregationSettings": {
+      "hideItemsCount": false,
+      "sum": [
+        409044216
+      ]
+    },
+    "layoutSettings": {
+      "table": {
+        "hierarchy": {
+          "enabled": true
+        },
+        "agentAssignment": {
+          "visible": true
+        }
+      }
+    },
+    "sliceBy": {}
+  },
+  {
+    "id": 48505914,
+    "number": 2,
+    "name": "Board",
+    "groupBy": [],
+    "sortBy": [
+      [
+        409044214,
+        "asc"
+      ]
+    ],
+    "visibleFields": [
+      409044158,
+      409044159,
+      409044160,
+      409044162,
+      409044168,
+      409044214,
+      409044216,
+      409044215,
+      409044217
+    ],
+    "filter": null,
+    "layout": "board_layout",
+    "priority": 9223372036854776007,
+    "createdAt": "2026-09-07T00:35:01Z",
+    "updatedAt": "2026-09-07T00:35:01Z",
+    "verticalGroupBy": [],
+    "aggregationSettings": {
+      "hideItemsCount": false,
+      "sum": [
+        409044216
+      ]
+    },
+    "layoutSettings": {
+      "board": {
+        "columnLimits": {
+          "409044160": {
+            "47fc9ee4": 5,
+            "f75ad846": 5
+          }
+        }
+      },
+      "table": {
+        "hierarchy": {
+          "enabled": true
+        },
+        "agentAssignment": {
+          "visible": true
+        }
+      }
+    },
+    "sliceBy": {}
+  },
+  {
+    "id": 48505915,
+    "number": 3,
+    "name": "Current iteration",
+    "groupBy": [
+      409044214
+    ],
+    "sortBy": [],
+    "visibleFields": [
+      409044158,
+      409044159,
+      409044160,
+      409044162,
+      409044168
+    ],
+    "filter": "iteration:@current",
+    "layout": "board_layout",
+    "priority": 9223372036854776107,
+    "createdAt": "2026-09-07T00:35:01Z",
+    "updatedAt": "2026-09-07T00:35:01Z",
+    "verticalGroupBy": [],
+    "aggregationSettings": {
+      "hideItemsCount": false,
+      "sum": [
+        409044216
+      ]
+    },
+    "layoutSettings": {
+      "board": {
+        "columnLimits": {
+          "409044160": {
+            "47fc9ee4": 5,
+            "f75ad846": 3
+          }
+        }
+      },
+      "table": {
+        "hierarchy": {
+          "enabled": true
+        },
+        "agentAssignment": {
+          "visible": true
+        }
+      }
+    },
+    "sliceBy": {}
+  },
+  {
+    "id": 48505916,
+    "number": 4,
+    "name": "Roadmap",
+    "groupBy": [],
+    "sortBy": [],
+    "visibleFields": [
+      409044158,
+      409044159,
+      409044160
+    ],
+    "filter": null,
+    "layout": "roadmap_layout",
+    "priority": 9223372036854776207,
+    "createdAt": "2026-09-07T00:35:01Z",
+    "updatedAt": "2026-09-07T00:35:01Z",
+    "verticalGroupBy": [],
+    "aggregationSettings": {
+      "hideItemsCount": false,
+      "sum": []
+    },
+    "layoutSettings": {
+      "table": {
+        "hierarchy": {
+          "enabled": true
+        },
+        "agentAssignment": {
+          "visible": true
+        }
+      },
+      "roadmap": {
+        "dateFields": [
+          409044217,
+          409044217
+        ]
+      }
+    },
+    "sliceBy": {}
+  },
+  {
+    "id": 48505917,
+    "number": 5,
+    "name": "My items",
+    "groupBy": [],
+    "sortBy": [],
+    "visibleFields": [
+      409044158,
+      409044214,
+      409044162,
+      409044168,
+      409044215,
+      409044216,
+      409044217
+    ],
+    "filter": "assignee:@me",
+    "layout": "table_layout",
+    "priority": 9223372036854776307,
+    "createdAt": "2026-09-07T00:35:01Z",
+    "updatedAt": "2026-09-07T00:35:01Z",
+    "verticalGroupBy": [],
+    "aggregationSettings": {
+      "hideItemsCount": false,
+      "sum": []
+    },
+    "layoutSettings": {
+      "table": {
+        "hierarchy": {
+          "enabled": true
+        },
+        "agentAssignment": {
+          "visible": true
+        }
+      }
+    },
+    "sliceBy": {
+      "field": 409044160
+    }
+  }
+]

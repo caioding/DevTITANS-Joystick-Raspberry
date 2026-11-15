@@ -1,0 +1,1468 @@
+{
+  "groups": {
+    "nodes": [
+      {
+        "groupValue": "Todo",
+        "groupId": "Y3Vyc29yOnYyOpLOGGGEwKRUb2Rv",
+        "groupMetadata": {
+          "id": "f75ad846",
+          "name": "Todo",
+          "nameHtml": "Todo",
+          "color": "GREEN",
+          "description": "This item hasn't been started",
+          "descriptionHtml": "This item hasn't been started"
+        },
+        "totalCount": {
+          "value": 7,
+          "isApproximate": false
+        },
+        "fieldMetrics": [
+          {
+            "fieldId": 409044216,
+            "value": 0.0,
+            "metricType": "sum"
+          }
+        ]
+      },
+      {
+        "groupValue": "In progress",
+        "groupId": "Y3Vyc29yOnYyOpLOGGGEwKtJbiBwcm9ncmVzcw==",
+        "groupMetadata": {
+          "id": "47fc9ee4",
+          "name": "In progress",
+          "nameHtml": "In progress",
+          "color": "YELLOW",
+          "description": "This is actively being worked on",
+          "descriptionHtml": "This is actively being worked on"
+        },
+        "totalCount": {
+          "value": 4,
+          "isApproximate": false
+        },
+        "fieldMetrics": [
+          {
+            "fieldId": 409044216,
+            "value": 0.0,
+            "metricType": "sum"
+          }
+        ]
+      },
+      {
+        "groupValue": "Done",
+        "groupId": "Y3Vyc29yOnYyOpLOGGGEwKREb25l",
+        "groupMetadata": {
+          "id": "98236657",
+          "name": "Done",
+          "nameHtml": "Done",
+          "color": "PURPLE",
+          "description": "This has been completed",
+          "descriptionHtml": "This has been completed"
+        },
+        "totalCount": {
+          "value": 7,
+          "isApproximate": false
+        },
+        "fieldMetrics": [
+          {
+            "fieldId": 409044216,
+            "value": 0.0,
+            "metricType": "sum"
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "endCursor": "Y3Vyc29yOnYyOoGmYnVja2V0pERvbmU=",
+      "hasNextPage": false,
+      "hasPreviousPage": false
+    }
+  },
+  "groupedItems": [
+    {
+      "groupId": "Y3Vyc29yOnYyOpLOGGGEwKRUb2Rv",
+      "nodes": [
+        {
+          "contentId": 5393976842,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243543405,
+          "priority": null,
+          "virtualPriority": "00000000.2",
+          "updatedAt": "2026-09-09T01:58:48Z",
+          "createdAt": "2026-09-09T01:58:48Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:58:48Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Início do firmware",
+                  "html": "Início do firmware"
+                },
+                "number": 6,
+                "issueId": 5393976842,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/6",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393976842,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/6",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYGOCg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393982581,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243543799,
+          "priority": null,
+          "virtualPriority": "00000000.1428571428571428",
+          "updatedAt": "2026-09-09T01:59:47Z",
+          "createdAt": "2026-09-09T01:59:47Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:59:46Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Protocolo Raspberry e braço",
+                  "html": "Protocolo Raspberry e braço"
+                },
+                "number": 8,
+                "issueId": 5393982581,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/8",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393982581,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/8",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYGkdQ"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393987798,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243544180,
+          "priority": null,
+          "virtualPriority": "00000000.1111111111111111",
+          "updatedAt": "2026-09-09T02:00:37Z",
+          "createdAt": "2026-09-09T02:00:37Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:00:36Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Leitura do acelerômetro",
+                  "html": "Leitura do acelerômetro"
+                },
+                "number": 10,
+                "issueId": 5393987798,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/10",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393987798,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/10",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYG41g"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393989619,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243544318,
+          "priority": null,
+          "virtualPriority": "00000000.1",
+          "updatedAt": "2026-09-09T02:00:53Z",
+          "createdAt": "2026-09-09T02:00:53Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:00:52Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Ambiente de rede",
+                  "html": "Ambiente de rede"
+                },
+                "number": 11,
+                "issueId": 5393989619,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/11",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393989619,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/11",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYG_8w"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393998270,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243544867,
+          "priority": null,
+          "virtualPriority": "00000000.0769230769230769",
+          "updatedAt": "2026-09-09T02:02:08Z",
+          "createdAt": "2026-09-09T02:02:08Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:02:08Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Comunicação Raspberry e braço",
+                  "html": "Comunicação Raspberry e braço"
+                },
+                "number": 14,
+                "issueId": 5393998270,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/14",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393998270,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/14",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYHhvg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5394000522,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243545012,
+          "priority": null,
+          "virtualPriority": "00000000.0714285714285714",
+          "updatedAt": "2026-09-09T02:02:29Z",
+          "createdAt": "2026-09-09T02:02:29Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:02:28Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Finalização da impressão 3D",
+                  "html": "Finalização da impressão 3D"
+                },
+                "number": 15,
+                "issueId": 5394000522,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/15",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5394000522,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/15",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYHqig"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5394011093,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243545616,
+          "priority": null,
+          "virtualPriority": "00000000.0666666666666666",
+          "updatedAt": "2026-09-09T02:04:07Z",
+          "createdAt": "2026-09-09T02:04:07Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:04:07Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Confecção do joystick e braço",
+                  "html": "Confecção do joystick e braço"
+                },
+                "number": 16,
+                "issueId": 5394011093,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/16",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "f75ad846"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5394011093,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/16",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYIT1Q"
+          },
+          "planningStatus": null
+        }
+      ],
+      "pageInfo": {
+        "startCursor": "Y3Vyc29yOnYyOpKqMDAwMDAwMDAuMs4OhC1t",
+        "endCursor": "Y3Vyc29yOnYyOpK5MDAwMDAwMDAuMDY2NjY2NjY2NjY2NjY2Ns4OhDYQ",
+        "hasNextPage": false,
+        "hasPreviousPage": false
+      }
+    },
+    {
+      "groupId": "Y3Vyc29yOnYyOpLOGGGEwKtJbiBwcm9ncmVzcw==",
+      "nodes": [
+        {
+          "contentId": 5394013202,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243545877,
+          "priority": null,
+          "virtualPriority": "00000002.5",
+          "updatedAt": "2026-09-23T01:17:03Z",
+          "createdAt": "2026-09-09T02:04:24Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:04:23Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Integração driver + firmware",
+                  "html": "Integração driver + firmware"
+                },
+                "number": 17,
+                "issueId": 5394013202,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/17",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/102248954?s=40&v=4",
+                  "id": 102248954,
+                  "login": "RaphaelvnMello",
+                  "url": "https://github.com/RaphaelvnMello"
+                }
+              ]
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "47fc9ee4"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5394013202,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/17",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYIcEg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393970177,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243542989,
+          "priority": null,
+          "virtualPriority": "00000002.3333333333333333",
+          "updatedAt": "2026-09-25T22:52:55Z",
+          "createdAt": "2026-09-09T01:57:44Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:57:44Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Levantamento de componentes",
+                  "html": "Levantamento de componentes"
+                },
+                "number": 4,
+                "issueId": 5393970177,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/4",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "47fc9ee4"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393970177,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/4",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYF0AQ"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393966710,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243542822,
+          "priority": null,
+          "virtualPriority": "00000002.25",
+          "updatedAt": "2026-09-25T22:52:59Z",
+          "createdAt": "2026-09-09T01:57:16Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:57:15Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Estudo joystick/SNES",
+                  "html": "Estudo joystick/SNES"
+                },
+                "number": 3,
+                "issueId": 5393966710,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/3",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "47fc9ee4"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393966710,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/3",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYFmdg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393992017,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243544467,
+          "priority": null,
+          "virtualPriority": "00000002.2",
+          "updatedAt": "2026-09-25T22:53:11Z",
+          "createdAt": "2026-09-09T02:01:13Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:01:13Z",
+          "state": "open",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Início da impressão 3D",
+                  "html": "Início da impressão 3D"
+                },
+                "number": 12,
+                "issueId": 5393992017,
+                "state": "open",
+                "url": "https://github.com/109042293/1355311259/issues/12",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "47fc9ee4"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393992017,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/12",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYHJUQ"
+          },
+          "planningStatus": null
+        }
+      ],
+      "pageInfo": {
+        "startCursor": "Y3Vyc29yOnYyOpKqMDAwMDAwMDIuNc4OhDcV",
+        "endCursor": "Y3Vyc29yOnYyOpKqMDAwMDAwMDIuMs4OhDGT",
+        "hasNextPage": false,
+        "hasPreviousPage": false
+      }
+    },
+    {
+      "groupId": "Y3Vyc29yOnYyOpLOGGGEwKREb25l",
+      "nodes": [
+        {
+          "contentId": 5393962888,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243542661,
+          "priority": null,
+          "virtualPriority": "00000002.0",
+          "updatedAt": "2026-09-09T01:56:55Z",
+          "createdAt": "2026-09-09T01:56:47Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:56:47Z",
+          "issueClosedAt": "2026-09-09T01:56:53Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Kickoff da equipe",
+                  "html": "Kickoff da equipe"
+                },
+                "number": 2,
+                "issueId": 5393962888,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/2",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393962888,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/2",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYFXiA"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5370251727,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 242143028,
+          "priority": null,
+          "virtualPriority": "00000001.0",
+          "updatedAt": "2026-09-09T06:25:10Z",
+          "createdAt": "2026-09-07T05:00:30Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-07T05:00:30Z",
+          "issueClosedAt": "2026-09-09T06:12:34Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "1.1 - Baixar o Repositório do AOSP & Compilar uma Imagem para Raspberry Pi",
+                  "html": "1.1 - Baixar o Repositório do AOSP &amp; Compilar uma Imagem para Raspberry Pi"
+                },
+                "number": 1,
+                "issueId": 5370251727,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/1",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/109042293?s=40&v=4",
+                  "id": 109042293,
+                  "login": "ThiagoChaves517",
+                  "url": "https://github.com/ThiagoChaves517"
+                }
+              ]
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5370251727,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/1",
+            "globalRelayId": "I_kwDOUMhom88AAAABQBeJzw"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393973052,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243543148,
+          "priority": null,
+          "virtualPriority": "00000000.6666666666666666",
+          "updatedAt": "2026-09-16T01:20:36Z",
+          "createdAt": "2026-09-09T01:58:09Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:58:09Z",
+          "issueClosedAt": "2026-09-16T01:20:23Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Entrega do Planejamento Parcial",
+                  "html": "Entrega do Planejamento Parcial"
+                },
+                "number": 5,
+                "issueId": 5393973052,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/5",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393973052,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/5",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYF_PA"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393980681,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243543671,
+          "priority": null,
+          "virtualPriority": "00000000.6",
+          "updatedAt": "2026-09-23T01:16:14Z",
+          "createdAt": "2026-09-09T01:59:27Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T01:59:26Z",
+          "issueClosedAt": "2026-09-23T01:15:59Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Estrutura do driver",
+                  "html": "Estrutura do driver"
+                },
+                "number": 7,
+                "issueId": 5393980681,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/7",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/102248954?s=40&v=4",
+                  "id": 102248954,
+                  "login": "RaphaelvnMello",
+                  "url": "https://github.com/RaphaelvnMello"
+                }
+              ]
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393980681,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/7",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYGdCQ"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393995802,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243544712,
+          "priority": null,
+          "virtualPriority": "00000000.5714285714285714",
+          "updatedAt": "2026-09-23T01:16:43Z",
+          "createdAt": "2026-09-09T02:01:46Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:01:45Z",
+          "issueClosedAt": "2026-09-23T01:16:34Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Driver como input Android",
+                  "html": "Driver como input Android"
+                },
+                "number": 13,
+                "issueId": 5393995802,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/13",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/102248954?s=40&v=4",
+                  "id": 102248954,
+                  "login": "RaphaelvnMello",
+                  "url": "https://github.com/RaphaelvnMello"
+                }
+              ]
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393995802,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/13",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYHYGg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5395762870,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243648611,
+          "priority": null,
+          "virtualPriority": "00000000.5555555555555555",
+          "updatedAt": "2026-09-25T22:52:36Z",
+          "createdAt": "2026-09-09T06:18:11Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T06:18:10Z",
+          "issueClosedAt": "2026-09-09T20:31:13Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "1.2 - Instalar a imagem na Raspberry Pi",
+                  "html": "1.2 - Instalar a imagem na Raspberry Pi"
+                },
+                "number": 18,
+                "issueId": 5395762870,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/18",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5395762870,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/18",
+            "globalRelayId": "I_kwDOUMhom88AAAABQZzOtg"
+          },
+          "planningStatus": null
+        },
+        {
+          "contentId": 5393985307,
+          "contentType": "Issue",
+          "contentRepositoryId": 1355311259,
+          "id": 243543991,
+          "priority": null,
+          "virtualPriority": "00000000.5",
+          "updatedAt": "2026-09-25T22:53:21Z",
+          "createdAt": "2026-09-09T02:00:14Z",
+          "agentTasks": null,
+          "issueCreatedAt": "2026-09-09T02:00:14Z",
+          "issueClosedAt": "2026-09-25T22:53:20Z",
+          "state": "closed",
+          "memexProjectColumnValues": [
+            {
+              "memexProjectColumnId": "Title",
+              "value": {
+                "title": {
+                  "raw": "Pesquisa de peças do braço",
+                  "html": "Pesquisa de peças do braço"
+                },
+                "number": 9,
+                "issueId": 5393985307,
+                "state": "closed",
+                "url": "https://github.com/109042293/1355311259/issues/9",
+                "stateReason": null
+              }
+            },
+            {
+              "memexProjectColumnId": 409044216,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Assignees",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Status",
+              "value": {
+                "id": "98236657"
+              }
+            },
+            {
+              "memexProjectColumnId": "Linked pull requests",
+              "value": []
+            },
+            {
+              "memexProjectColumnId": "Sub-issues progress",
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044217,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044218,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": 409044219,
+              "value": null
+            },
+            {
+              "memexProjectColumnId": "Parent issue",
+              "value": null
+            }
+          ],
+          "content": {
+            "id": 5393985307,
+            "url": "https://github.com/ThiagoChaves517/DevTITANS_Equipe-3_-Joystick-no-Raspberry/issues/9",
+            "globalRelayId": "I_kwDOUMhom88AAAABQYGvGw"
+          },
+          "planningStatus": null
+        }
+      ],
+      "pageInfo": {
+        "startCursor": "Y3Vyc29yOnYyOpKqMDAwMDAwMDIuMM4OhCqF",
+        "endCursor": "Y3Vyc29yOnYyOpKqMDAwMDAwMDAuNc4OhC-3",
+        "hasNextPage": false,
+        "hasPreviousPage": false
+      }
+    }
+  ],
+  "totalCount": {
+    "value": 18,
+    "isApproximate": false
+  }
+}
